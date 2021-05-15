@@ -1,0 +1,83 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31229.75
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FruitStore.Api", "FruitStore.Api\FruitStore.Api.csproj", "{57D97DDC-D051-4A5E-BAC5-791434CB8569}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{B8B89FB1-2AE6-41D2-BCBC-ABD3226E49C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{573A158A-0085-4AC0-A069-AAA4F0F54130}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApi", "WebApi", "{521B957D-714E-4C3F-A164-7BFC86585EC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FruitStore.Domain", "FruitStore.Domain\FruitStore.Domain.csproj", "{18EDF3E3-6403-43A6-8C32-DA70DE3908B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FruitStore.Infrastructure", "FruitStore.Infrastructure\FruitStore.Infrastructure.csproj", "{401F34DF-FEC5-4A69-82F7-B3C55C270FB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FruitStore.Infrastructure.Interfaces", "FruitStore.Infrastructure.Interfaces\FruitStore.Infrastructure.Interfaces.csproj", "{87ADDAA0-40A5-4BF4-B59B-750324E09720}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FruitStore.Infrastructure.IoC", "FruitStore.Infrastructure.IoC\FruitStore.Infrastructure.IoC.csproj", "{A65F5980-B1A2-4FDF-8CC4-E132A117FBD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FruitStore.Application", "FruitStore.Application\FruitStore.Application.csproj", "{F49D9E12-F9FE-4831-B634-9C0A87D62888}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FruitStore.Application.Interfaces", "FruitStore.Application.Interfaces\FruitStore.Application.Interfaces.csproj", "{E8B7980A-2349-4976-95E0-AEF58030FF2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FruitStore.Application.IoC", "FruitStore.Application.IoC\FruitStore.Application.IoC.csproj", "{9E3AE831-8E5C-45C1-91CA-9833C5E41DDF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57D97DDC-D051-4A5E-BAC5-791434CB8569}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57D97DDC-D051-4A5E-BAC5-791434CB8569}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57D97DDC-D051-4A5E-BAC5-791434CB8569}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57D97DDC-D051-4A5E-BAC5-791434CB8569}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18EDF3E3-6403-43A6-8C32-DA70DE3908B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18EDF3E3-6403-43A6-8C32-DA70DE3908B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18EDF3E3-6403-43A6-8C32-DA70DE3908B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18EDF3E3-6403-43A6-8C32-DA70DE3908B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{401F34DF-FEC5-4A69-82F7-B3C55C270FB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{401F34DF-FEC5-4A69-82F7-B3C55C270FB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{401F34DF-FEC5-4A69-82F7-B3C55C270FB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{401F34DF-FEC5-4A69-82F7-B3C55C270FB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87ADDAA0-40A5-4BF4-B59B-750324E09720}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87ADDAA0-40A5-4BF4-B59B-750324E09720}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87ADDAA0-40A5-4BF4-B59B-750324E09720}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87ADDAA0-40A5-4BF4-B59B-750324E09720}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A65F5980-B1A2-4FDF-8CC4-E132A117FBD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A65F5980-B1A2-4FDF-8CC4-E132A117FBD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A65F5980-B1A2-4FDF-8CC4-E132A117FBD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A65F5980-B1A2-4FDF-8CC4-E132A117FBD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F49D9E12-F9FE-4831-B634-9C0A87D62888}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F49D9E12-F9FE-4831-B634-9C0A87D62888}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F49D9E12-F9FE-4831-B634-9C0A87D62888}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F49D9E12-F9FE-4831-B634-9C0A87D62888}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8B7980A-2349-4976-95E0-AEF58030FF2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8B7980A-2349-4976-95E0-AEF58030FF2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8B7980A-2349-4976-95E0-AEF58030FF2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8B7980A-2349-4976-95E0-AEF58030FF2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E3AE831-8E5C-45C1-91CA-9833C5E41DDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E3AE831-8E5C-45C1-91CA-9833C5E41DDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E3AE831-8E5C-45C1-91CA-9833C5E41DDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E3AE831-8E5C-45C1-91CA-9833C5E41DDF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{57D97DDC-D051-4A5E-BAC5-791434CB8569} = {521B957D-714E-4C3F-A164-7BFC86585EC6}
+		{18EDF3E3-6403-43A6-8C32-DA70DE3908B7} = {B8B89FB1-2AE6-41D2-BCBC-ABD3226E49C5}
+		{401F34DF-FEC5-4A69-82F7-B3C55C270FB7} = {573A158A-0085-4AC0-A069-AAA4F0F54130}
+		{87ADDAA0-40A5-4BF4-B59B-750324E09720} = {573A158A-0085-4AC0-A069-AAA4F0F54130}
+		{A65F5980-B1A2-4FDF-8CC4-E132A117FBD0} = {573A158A-0085-4AC0-A069-AAA4F0F54130}
+		{F49D9E12-F9FE-4831-B634-9C0A87D62888} = {B8B89FB1-2AE6-41D2-BCBC-ABD3226E49C5}
+		{E8B7980A-2349-4976-95E0-AEF58030FF2B} = {B8B89FB1-2AE6-41D2-BCBC-ABD3226E49C5}
+		{9E3AE831-8E5C-45C1-91CA-9833C5E41DDF} = {B8B89FB1-2AE6-41D2-BCBC-ABD3226E49C5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5966849A-2BFC-43EF-8B2D-1E9201EF80B9}
+	EndGlobalSection
+EndGlobal
