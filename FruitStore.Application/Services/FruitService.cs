@@ -49,7 +49,7 @@ namespace FruitStore.Application.Services
 
         public Pagination<Fruit> Get(int pageNumber, int pageSize)
         {
-            return _repository.GetFruitsWithPagination(null, pageNumber, pageSize);
+            return _repository.GetFruitsWithPagination(pageNumber, pageSize);
         }
 
         public bool Delete(Guid id)

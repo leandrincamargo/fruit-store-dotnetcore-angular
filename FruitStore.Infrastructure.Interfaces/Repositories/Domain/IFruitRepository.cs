@@ -8,6 +8,6 @@ namespace FruitStore.Infrastructure.Interfaces.Repositories.Domain
 {
     public interface IFruitRepository : IDomainRepository<Fruit>
     {
-        Pagination<Fruit> GetFruitsWithPagination(Expression<Func<Fruit, bool>> predicate, int pageNumber, int pageSize);
+        Pagination<Fruit> GetFruitsWithPagination(int pageNumber, int pageSize);
     }
 }

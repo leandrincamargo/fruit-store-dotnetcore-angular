@@ -13,9 +13,9 @@ namespace FruitStore.Infrastructure.Repositories
     {
         public FruitRepository(ApplicationContext dbContext) : base(dbContext) { }
 
-        public Pagination<Fruit> GetFruitsWithPagination(Expression<Func<Fruit, bool>> predicate, int pageNumber, int pageSize)
+        public Pagination<Fruit> GetFruitsWithPagination(int pageNumber, int pageSize)
         {
-            IQueryable<Fruit> query = _dbSet.Where(predicate).OrderBy(x => x.Name);
+            IQueryable<Fruit> query = _dbSet.OrderBy(x => x.Name);
 
             var skipNumber = Pagination<Fruit>.CalculateSkipNumber(pageNumber, pageSize);
             var totalItemCount = query.Count();
