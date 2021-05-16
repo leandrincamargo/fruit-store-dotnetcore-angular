@@ -1,0 +1,19 @@
+.fruitContainer {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+}
+
+.fruitCard {
+  img {
+    max-width: 100%;
+    max-height: 100px;
+    object-fit: contain;
+  }
+}
+
+.fruitPaginator {
+  grid-column-start: 1;
+  grid-column-end: 6;
+}

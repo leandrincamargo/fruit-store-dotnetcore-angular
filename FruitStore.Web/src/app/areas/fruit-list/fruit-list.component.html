@@ -1,0 +1,21 @@
+<div *ngIf="fruitList !== null" class="fruitContainer">
+  <mat-card *ngFor="let fruit of fruitList.items" class="fruitCard">
+    <mat-card-header>
+      <mat-card-title>{{fruit.name | capitalizefirst}}</mat-card-title>
+      <mat-card-subtitle>{{fruit.price | currency}}</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image src={{fruit.pictureUrl}} alt={{fruit.name}}>
+    <mat-card-content>
+      <p>{{fruit.description | capitalizefirst}} </p>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-button (click)="addToCart(fruit.id)">
+        <mat-icon>add</mat-icon> Adicionar
+      </button>
+    </mat-card-actions>
+  </mat-card>
+
+  <mat-paginator class="fruitPaginator" [length]="fruitList.totalItemCount" [pageSize]="fruitList.pageSize"
+    [pageSizeOptions]="[5, 10, 20, 35]" (page)="getFruits($event)" translate="pt-BR">
+  </mat-paginator>
+</div>
